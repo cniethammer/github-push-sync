@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
-    - uses: wangchucheng/git-repo-sync@master
+    - uses: cniethammer/git-repo-sync@main
       with:
         target-url: 'https://codehub.hlrs.de/coes/cheese-2p/cicd-tests/github-push-sync.git'
         target-username: ${{ secrets.ACCESS_TOKEN_NAME }}
