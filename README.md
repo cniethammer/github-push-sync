@@ -11,4 +11,5 @@ To set this up:
 3.) Create action secrets on the GitHub repository named ACCESS_TOKEN_NAME and ACCESS_TOKEN with the
     corresponding values. (Settings->Secrets and Variables->Actions->New repository secret)
 
-4.) Add the .github/workflow/github-to-gitlab-push-sync.yml file to your GitHub repository.
+4.) Add the .github/workflows/github-to-gitlab-push-sync.yml file to your GitHub repository and update the 'target-url' in it
+    to point to your gitlab repository.
