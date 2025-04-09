@@ -1,5 +1,7 @@
 # github-to-gitlab-push-sync
 This workflow sets up a GitHub action that will sync branches/tags from a GitHub repository to a gitlab repository.
+By default the 'main' branch as well as branches matching the pattern 'release/**' and tags matching the pattern
+'v[0-9]+.[0-9]+.[0-9]+' are snyced.
 
 To set this up:
 
